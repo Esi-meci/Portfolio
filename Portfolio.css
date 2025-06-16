@@ -109,10 +109,13 @@ section {
 
 }
 
-nav + section {
-    padding-top: 2rem; /* Adjusted to account for fixed navbar */
-    min-height: 95vh;
+nav+section {
+    padding: 1rem auto 0;
+    /* Adjusted to account for fixed navbar */
+    min-height: 50vh;
+
 }
+
 
 
 
@@ -263,6 +266,22 @@ nav + section {
 }
 
 
+.large {
+    display: none;
+}
+
+@media (min-width: 950px) {
+    .large {
+        display: block;
+    }
+
+    .nav+section {
+        padding-top: 2rem;
+        /* Adjusted to account for fixed navbar */
+        min-height: 95vh;
+    }
+
+}
 
 /* cv  */
 
@@ -477,7 +496,8 @@ nav + section {
     text-transform: capitalize;
 }
 
-.project, .projects {
+.project,
+.projects {
     display: flex;
     justify-content: space-around;
     margin: auto;
@@ -486,7 +506,9 @@ nav + section {
     gap: 20px;
 }
 
-.p1, .p2, .p3 {
+.p1,
+.p2,
+.p3 {
     position: relative;
     height: 255px;
     border-radius: 10px;
@@ -495,7 +517,10 @@ nav + section {
     box-shadow: 0 0 0.4rem #0ef;
     transition: ease-in 0.2s;
 }
-.c1, .c2, .c3 {
+
+.c1,
+.c2,
+.c3 {
     position: relative;
     height: 302px;
     border-radius: 10px;
@@ -566,6 +591,7 @@ nav + section {
     height: auto;
     object-fit: cover;
 }
+
 .projects img {
     width: 300px;
     height: auto;
@@ -977,7 +1003,9 @@ body {
         width: 35px;
         border-radius: 35px;
 
-    } .foot{
+    }
+
+    .foot {
         gap: 5px;
         padding: 3px;
     }
@@ -1023,7 +1051,8 @@ body {
 
 
     }
-    .foot{
+
+    .foot {
         gap: 5px;
         padding: 3px;
     }
@@ -1115,9 +1144,10 @@ body {
 
 
     }
-     .foot{
+
+    .foot {
         gap: 5px;
-        padding:3px;
+        padding: 3px;
     }
 
 
@@ -1157,7 +1187,8 @@ body {
 
 
     }
-    .foot{
+
+    .foot {
         gap: 5px;
         padding: 3px;
     }
