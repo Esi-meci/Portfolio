@@ -270,18 +270,7 @@ nav+section {
     display: none;
 }
 
-@media (min-width: 950px) {
-    .large {
-        display: block;
-    }
 
-    .nav+section {
-        padding-top: 2rem;
-        /* Adjusted to account for fixed navbar */
-        min-height: 95vh;
-    }
-
-}
 
 /* cv  */
 
@@ -1147,7 +1136,15 @@ body {
         padding: 3px;
     }
 
+    .large {
+        display: block;
+    }
 
+    .nav+section {
+        padding-top: 2rem;
+        /* Adjusted to account for fixed navbar */
+        min-height: 95vh;
+    }
 
 }
 
