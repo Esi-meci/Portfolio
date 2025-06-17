@@ -959,6 +959,17 @@ body {
     overflow-x: hidden;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
 
 
 

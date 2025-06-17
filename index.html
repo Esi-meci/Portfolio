@@ -38,8 +38,9 @@
             <li><a href="#Services">Services</a></li>
             <li><a href="#Portfolie">Portfolio</a></li>
             <li><a href="#Contact">Contact</a></li>
+            <li><a href="./thankYou.html">Thank you</a></li>
         </ul>
-        
+
         <!-- dark mode  -->
         <div>
             <button class="theme" id="theme-toggle">⦿</button>
@@ -55,11 +56,10 @@
             <h1 style="text-align: center;">Hi, i'm Godwin Mercy Blessing </h1>
             <h2><span style="color: skyblue;"> Web Developer | Graphics Designer | UI/UX Designer </span></h2>
             <div class="social-media">
-                <a target="_blank" href="https://www.instagram.com/merzymi/"><i
-                        class="ri-instagram-fill"></i></a>
-                <a target="_blank" href="https://web.facebook.com/godwinmercy.blessin"><i class="ri-facebook-fill"></i></a>
-                <a target="_blank" href="https://www.tiktok.com/@esi_meci_"><i
-                        class="ri-tiktok-fill"></i></a>
+                <a target="_blank" href="https://www.instagram.com/merzymi/"><i class="ri-instagram-fill"></i></a>
+                <a target="_blank" href="https://web.facebook.com/godwinmercy.blessin"><i
+                        class="ri-facebook-fill"></i></a>
+                <a target="_blank" href="https://www.tiktok.com/@esi_meci_"><i class="ri-tiktok-fill"></i></a>
                 <a target="_blank" href="https://github.com/Esi-meci"><i class="ri-github-fill"></i></a>
                 <a target="_blank" href="https://x.com/esi_meci"><i class="ri-twitter-fill"></i></a>
             </div>
@@ -117,7 +117,8 @@
             <div class="service">
                 <img style="width: 30px; height: 30px; margin-bottom: 10px;" src="./images/code (1).png" alt="">
                 <h2>Web Development</h2>
-                <p>For website developement i excel in crafting dynamic experiences. i use so many tools for achieve this.</p>
+                <p>For website developement i excel in crafting dynamic experiences. i use so many tools for achieve
+                    this.</p>
             </div>
 
             <div class="service">
@@ -363,36 +364,41 @@
         <h3>Graphics Designs</h3>
         <div class="projects">
             <div class="c2">
-                <a href="./images/design 6.jpg" data-lightbox="gallery"><img src="./images/design 6.jpg" width="150"></a>
+                <a href="./images/design 6.jpg" data-lightbox="gallery"><img src="./images/design 6.jpg"
+                        width="150"></a>
             </div>
-            
+
             <div class="c1">
-                <a href="./images/design 1.jpg" data-lightbox="gallery"><img src="./images/design 1.jpg" width="150"></a>                
+                <a href="./images/design 1.jpg" data-lightbox="gallery"><img src="./images/design 1.jpg"
+                        width="150"></a>
             </div>
-            
+
             <div class="c3">
-                <a href="./images/design 3.jpg" data-lightbox="gallery"><img src="./images/design 3.jpg" width="150"></a>
-            </div>
-            <div class="c3">
-                <a href="./images/design 2.jpg" data-lightbox="gallery"><img src="./images/design 2.jpg" width="150"></a>
-            </div>
-            <div class="c3">
-                <a href="./images/design 4.jpg" data-lightbox="gallery"><img src="./images/design 4.jpg" width="150"></a>
+                <a href="./images/design 3.jpg" data-lightbox="gallery"><img src="./images/design 3.jpg"
+                        width="150"></a>
             </div>
             <div class="c3">
-                <a href="./images/design 5.jpg" data-lightbox="gallery"><img src="./images/design 5.jpg" width="150"></a>
+                <a href="./images/design 2.jpg" data-lightbox="gallery"><img src="./images/design 2.jpg"
+                        width="150"></a>
+            </div>
+            <div class="c3">
+                <a href="./images/design 4.jpg" data-lightbox="gallery"><img src="./images/design 4.jpg"
+                        width="150"></a>
+            </div>
+            <div class="c3">
+                <a href="./images/design 5.jpg" data-lightbox="gallery"><img src="./images/design 5.jpg"
+                        width="150"></a>
             </div>
         </div>
 
     </section>
     <!-- contact section  -->
 
-    <section id="Contact" class="reveal">
+    <!-- <section id="Contact" class="reveal"> -->
+    <section id="Contact">
         <h1>Contact Me </h1>
         <h3>Have a question or want to work together?</h3>
-        <form id="contactForm" action="https://formspree.io/f/xldnnyel">
-
-
+        <form id="contactForm" action="https://formsubmit.co/1esimeci@gmail.com" method="POST">
             <div class="contact2">
                 <label for="First Name"></label>
                 <input type="text" name="FullName" id="FullName" required placeholder="Full Name">
@@ -403,6 +409,9 @@
                 <label for="Message"></label>
                 <textarea name="message" id="Message" placeholder="Message" required></textarea>
             </div>
+            <input type="hidden" name="_subject" value="New message from your site!" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="http://localhost:5500/thankYou.html" />
             <label for="submit"></label>
             <button type="submit" class="Submit">Submit</button>
 
